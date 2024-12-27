@@ -1,0 +1,39 @@
+.exercise_videos-box {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  padding: 2rem;
+  gap: 10px;
+}
+
+.exercise_videos {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  transition: 0.3s ease, transform 0.3s ease;
+}
+
+.exercise_videos:hover {
+  background-color: rgb(192, 183, 183);
+  transform: translateY(-3px);
+}
+
+.exercise_videos-text {
+  text-align: left;
+  color: black;
+  padding-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .exercise_videos-box {
+    justify-content: center;
+  }
+
+  .exercise_videos {
+    flex-direction: column;
+  }
+}

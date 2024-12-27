@@ -1,0 +1,52 @@
+.button-part {
+  margin-left: 21px;
+  color: #fff;
+  background: #fcc757;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+}
+
+.button-target {
+  margin-left: 21px;
+  color: #fff;
+  background: var(--color-red);
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+}
+
+.exercise-card {
+  width: 400px;
+  height: 450px;
+  background: #fff;
+  border-top: 4px solid #ff2625;
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card img {
+  height: 300px;
+}
+
+.search-button {
+  font-size: 15px;
+  width: 80px;
+}
+
+.exercise-card:hover,
+.bodyPart-card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+@media (max-width: 600px) {
+  .exercise-card {
+    width: 280px;
+    height: 380px;
+  }
+}

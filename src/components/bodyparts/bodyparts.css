@@ -1,0 +1,23 @@
+.bodyPart-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 1rem;
+}
+
+.bodyPart-card.selected {
+  border-top: 4px solid #ff2625;
+}
+
+.bodyPart-card.notselected {
+  border-top: none;
+}
+
+.bodyPart-icon {
+  font-size: 100px;
+  color: red;
+}

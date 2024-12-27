@@ -1,0 +1,16 @@
+:root {
+  --color-green: #03f02e;
+  --color-bg: #000000;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-red: #ee0b0b;
+  --color-white: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
